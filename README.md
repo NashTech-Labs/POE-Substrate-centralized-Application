@@ -10,16 +10,22 @@ First, complete the basic Rust setup instructions.
 Run
 Use Rust's native cargo command to build and launch the template node:
 
-cargo run --release -- --dev --tmp
 Build
+
+cargo run --release -- --dev --tmp
+
 The cargo run command will perform an initial build. Use the following command to build the node without launching it:
 
 cargo build --release
+
 Embedded Docs
+
 Once the project has been built, the following command can be used to explore all parameters and subcommands:
 
 ./target/release/node-template -h
+
 Run
+
 The provided cargo run command will launch a temporary node and its state will be discarded after you terminate the process. After the project has been built, there are other ways to launch the node.
 
 Single-Node Development Chain
